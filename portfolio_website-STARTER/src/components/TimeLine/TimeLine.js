@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider></SectionDivider>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -113,7 +113,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
