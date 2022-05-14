@@ -19,8 +19,14 @@ const Technologies = () =>  (
             Front-End
           </ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Experienced with <br />
+            Javascript/HTML/CSS
+            <ul>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Figma & Tailwind CSS</li>
+            <li>Material UI</li>
+            </ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,8 +38,13 @@ const Technologies = () =>  (
             Back-End
           </ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+            Experienced with <br />
+            <ul>
+            <li>Node.js & Express.js</li>
+            <li>Firebase</li>
+            <li>Mongo DB</li>
+            <li>AWS</li>
+            </ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,8 +56,13 @@ const Technologies = () =>  (
             Devops
           </ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Kubernetes and Docker
+            Experienced with <br />
+            <ul>
+            <li>Kubernetes</li>
+            <li>Docker</li>
+            <li>Terraform</li>
+            <li>Jenkins</li>
+            </ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
