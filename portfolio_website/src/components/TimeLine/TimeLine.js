@@ -47,7 +47,9 @@ const Timeline = () => {
       <SectionDivider></SectionDivider>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I am a 2nd Year Undergrad at DYPCOE, Pune pursuing a Bachelor of Engineering majoring in Information Technology. So far, in my experience at DYPCOE, I have learned various Computer Science fundamentals like Database Management, Full stack Web Dev, Basics of Google Cloud, Python Programming, Basics of Data Structures and Algorithms, and practical professional skills like teamwork, networking, and time-management.
+        <br/>
+        I am also a Full-Stack Web Development learner and have made quite a few projects comprising of tools, technologies, and frameworks such as ReactJS, Next.js, MongoDB, Node.js, and Express.js. I am currently learning more about Backend and DevOps and trying to cement the concepts that I had learned in the Web Development process till now be it frontend, backend, or databases.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

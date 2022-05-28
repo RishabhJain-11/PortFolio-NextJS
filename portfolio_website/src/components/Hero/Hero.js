@@ -14,7 +14,7 @@ const Hero = (props) => (
        <SectionText>
           The purpose of mine is to help aspiring and established developers to take their development to the next level and build awesome apps. 
        </SectionText>
-       <Button onClick={() => window.location = 'file:///C:/Users/Rishabh/Downloads/CIS_Grad_Template__Dev_.pdf'}>
+       <Button target='_blank' onClick={() => window.location = 'https://drive.google.com/file/d/100-WtmHCPeISfwdJF34xQCpis9fiyp9e/view?usp=sharing' }>
          Learn More 
        </Button>
      </LeftSection>
