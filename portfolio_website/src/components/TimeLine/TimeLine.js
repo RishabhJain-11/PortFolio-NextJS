@@ -47,9 +47,7 @@ const Timeline = () => {
       <SectionDivider></SectionDivider>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a 2nd Year Undergrad at DYPCOE, Pune pursuing a Bachelor of Engineering majoring in Information Technology. So far, in my experience at DYPCOE, I have learned various Computer Science fundamentals like Database Management, Full stack Web Dev, Basics of Google Cloud, Python Programming, Basics of Data Structures and Algorithms, and practical professional skills like teamwork, networking, and time-management.
-        <br/>
-        I am also a Full-Stack Web Development learner and have made quite a few projects comprising of tools, technologies, and frameworks such as ReactJS, Next.js, MongoDB, Node.js, and Express.js. I am currently learning more about Backend and DevOps and trying to cement the concepts that I had learned in the Web Development process till now be it frontend, backend, or databases.
+        Hello, my name is Rishabh Jain and I am a third-year student studying information technology and my area of work is Web Development. I have always been fascinated by the world of technology and its potential to solve problems and improve our lives. In my studies, I have gained a solid foundation in programming languages such as JavaScript, ReactJS, Node JS - ExpressJS and Mongo DB, as well as knowledge of database management, web design principles, and user experience. I am also constantly expanding my skills through personal projects and participating in hackathons and coding competitions. As a web developer, I am passionate about creating visually appealing and user-friendly websites that deliver a seamless user experience. I am excited to continue honing my skills and applying them to real-world problems in the field of technology.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
